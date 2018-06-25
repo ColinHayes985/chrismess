@@ -17,6 +17,12 @@ function submit(){
     h1.textContent='Chris';
 }
 
+function submitKey(){
+    const h1 = document.querySelector('h1');
+    h1.textContent='Chris';
+}
+
 button.addEventListener('click', changeHeading);
 bonusButton.addEventListener('click', changeHeadingBonus);
 submitButton.addEventListener('click', submit);
+submitButton.addEventListener('keypress', submitKey)
