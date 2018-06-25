@@ -8,7 +8,7 @@ function changeHeading(){
 
 function changeHeadingBonus(){
     const h1 = document.querySelector('#bonusCreditHeading');
-    h1.textContent='Chris Pratt controversial actionns durig Infinity War were very in character for Star-Lord';
+    h1.textContent='Chris Pratt controversial actions during Infinity War were very in character for Star-Lord';
 }
 
 button.addEventListener('click', changeHeading);
