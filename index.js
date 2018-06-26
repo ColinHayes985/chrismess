@@ -1,25 +1,26 @@
 const button = document.querySelector('button');
 const bonusButton = document.querySelector('#bonusCreditButton');
-const submitButton = document.querySelector('#submit');
+const submitButton = document.getElementByName('sub');
+input = document.getElementByName('text')
 
 function changeHeading(){
     const h1 = document.querySelector('h1');
-    h1.textContent='Chris';
+    h1.textContent='Chris Hemsworth';
 }
 
 function changeHeadingBonus(){
     const h1 = document.querySelector('#bonusCreditHeading');
-    h1.textContent='Chris Pratt controversial actions during Infinity War were very in character for Star-Lord';
+    h1.textContent='Chris Pine';
 }
 
 function submit(){
     const h1 = document.querySelector('h1');
-    h1.textContent='Chris';
+    h1.textContent=input;
 }
 
 function submitKey(){
     const h1 = document.querySelector('h1');
-    h1.textContent='Chris';
+    h1.textContent=input;
 }
 
 button.addEventListener('click', changeHeading);
